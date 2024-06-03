@@ -16,4 +16,4 @@ RUN chmod +x your_script.sh
 EXPOSE 5900
 
 # Run the script
-CMD ["./script.sh"]
+CMD ["./my_script.sh"]

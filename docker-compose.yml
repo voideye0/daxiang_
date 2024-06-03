@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  windows-vm:
+    image: ubuntu:20.04
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: ["./my_script.sh"]
+    cap_add:
+      - SYS_ADMIN
+    devices:
+      - /dev/kvm
+    security_opt:
+      - seccomp:unconfined
+    ports:
+      - "5900:5900"

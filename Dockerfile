@@ -10,7 +10,7 @@ WORKDIR /app
 COPY . .
 
 # Set permissions for the script
-RUN chmod +x your_script.sh
+RUN chmod +x my_script.sh
 
 # Expose the VNC port
 EXPOSE 5900

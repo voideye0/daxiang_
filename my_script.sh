@@ -23,7 +23,7 @@ tar -xf ngrok.tgz
 
 # Set ngrok authtoken
 log "Setting ngrok authtoken"
-./ngrok authtoken <insert authtoken here>
+./ngrok authtoken 2c87FHd3mqEpxQGMxxxLwu4iVJq_rKU5fmJGXcDKYg7EoUnF
 
 # Start ngrok for TCP tunneling
 log "Starting ngrok for TCP tunneling"
